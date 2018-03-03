@@ -662,11 +662,12 @@ GameObject:
   - component: {fileID: 4975132040720076}
   - component: {fileID: 95656018740483626}
   - component: {fileID: 54290401911178210}
-  - component: {fileID: 114253387254759822}
   - component: {fileID: 136426991220510362}
+  - component: {fileID: 114041496154782372}
+  - component: {fileID: 114192043359053556}
   m_Layer: 0
   m_Name: walkingGoblin
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1473,8 +1474,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1848842021701462}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_LocalPosition: {x: 11.928422, y: 0.115, z: -8.668419}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_Children:
   - {fileID: 4393329091499020}
   - {fileID: 4704791193943456}
@@ -1524,7 +1525,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 122
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!95 &95656018740483626
 Animator:
@@ -1543,7 +1544,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114253387254759822
+--- !u!114 &114041496154782372
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1551,12 +1552,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1848842021701462}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e94c61fb4bbe4579b3d8dcca308455a, type: 3}
+  m_Script: {fileID: 11500000, guid: dc56693811eed45b69c223879ef16987, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xspeed: 0
-  zspeed: 2
-  damage: 1
+  xSpeed: 0
+  zSpeed: 2
+  attackAnimName: attack01
+  attackStrength: 1
+--- !u!114 &114192043359053556
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1848842021701462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc6c3a07f63ee443b46a02ff3d76c30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!136 &136426991220510362
 CapsuleCollider:
   m_ObjectHideFlags: 1

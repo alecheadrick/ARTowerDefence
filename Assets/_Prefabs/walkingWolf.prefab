@@ -224,9 +224,10 @@ GameObject:
   - component: {fileID: 135785435123658512}
   - component: {fileID: 54369210990348112}
   - component: {fileID: 114809834701303976}
+  - component: {fileID: 114423647733774910}
   m_Layer: 0
   m_Name: walkingWolf
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1373,7 +1374,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 122
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!95 &95057566779952850
 Animator:
@@ -1392,6 +1393,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114423647733774910
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1237806878885700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc6c3a07f63ee443b46a02ff3d76c30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!114 &114809834701303976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1405,6 +1418,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xSpeed: 0
   zSpeed: 1.5
+  attackAnimName: attack01
+  attackStrength: 1.2
 --- !u!135 &135785435123658512
 SphereCollider:
   m_ObjectHideFlags: 1

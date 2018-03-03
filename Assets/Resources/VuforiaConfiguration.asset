@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AfxIHzb/////AAAAmW36LLqvc00kivUCbBzhLQIgtLHo2LSA7Kg9V3KcRmy/7zmpxSNgqNOYPi6GwqHLqilddLhjvYQM8b0B+NuNpILFAsonJD4mUdedt/b4FtMDIThH3zs+251bmY7WelurotHAMk3NbL6i7gjLMKh4xWzMtX16vl9QGmGarfcY2ei5mI8mlyw+ARaeO7Q7AINW1eeAK55OYzPGOeBbftns6M9ncYcXwRBJIqiZ9jxMdQpU9vZ8TGB6WFWeb/jWg9iKp47YpD2qk/iuMjGEWwk9jifAMj/sGD44obAJsPh32hQZyrFYeMaP3paioKp7EpMUV4HnuljVqOo/9OlM/J4JI0xErtk0dcesN2Llv1h+hFd/
+    vuforiaLicenseKey: ASDhLDX/////AAAAmbSCJleA80XYhqc0TaQQyGFOZkTrsY2xQMet8UaUlIJXnMjD8C0//uGA8Eejyqynq+iEx3zV0aLMPX5ylqCx8CupP0ja2uxtGLcoq213iHH51/Rpar5GgD3NJfCC72IuRhwzdYy6TYe2P/ErnhirEYdkF105bwFQKa9CqMD0itQFcZ4bMrGDU1QY3z4u7kqsuRcPPDpG5xZjbYp9UdOAynMoyeJn38+4ZQ5oR8jxN4kRKjNzFM6UmjG8VGDw1RT6uDesUmqPsBfbXP3WGrZfvvvZ7H+I8nFIQrJn56HDKcfdDzm3P2KbTmH1LQ8OE0FKMmClXIpMdaXpb4y4mDsZ1UcRKYGurNcy8F2HoTeM/0Oh
     ufoLicenseKey: QWJNNlZlei8vLy8vQUFBQUtGNTkrK1BwZkVsQ3RzRjNyNTlkblRwY3BGLzRzakQwZ2JtSEU2NDhUa3ErdUV3TUQyUDI3K2kzZnppaENma2l2eGVuaEUyejNSOFNBSnVYSGFnK0JSdDlNa3FwSE9GYlQ2c20yeWVBdUswSHlCTGUzR3p5YW1TR09TQml0NWFnd3d3ZW5sc0t3WDBZZGlBRXZad1h6aC9tdFVxQzVsMFVqTU9QRU1DdWJjbXVzcVZCWWxKN3Y1MHJVN054K0RJMUVRNXBwZThVc0duNWU4dkIrdEE4MUNkU0RIU1JhMDJPM0lyekxqVlRVZnlnN3JRazQvekFxRTJONFRIVXN2Y0ZqbjAvUit3ejl2NUowVWVUQXBYam0vM1FYMHAyQlh6bWRSOFlmcCs3SlZWNkY3eENYY1B6U05vRGt6ek5xSnZrUXVnK2VTWk1BakwxWWhEdFd2a1JSYmhPbWFtaUdKRzNlS2svdGJnNk5jREI=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
@@ -44,15 +44,9 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
-    - Fantasy2
-    - VuforiaMars_Images
-    - VuforiaMars_VuMark
-    - FantasyApp
+    - TowerDefenceGame
     dataSetsToActivate:
-    - Fantasy2
-    - VuforiaMars_Images
-    - VuforiaMars_VuMark
-    - FantasyApp
+    - TowerDefenceGame
   videoBackground:
     clippingMode: 0
     numDivisions: 2

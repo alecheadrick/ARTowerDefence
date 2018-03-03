@@ -30,7 +30,7 @@ public class Generator : MonoBehaviour {
 			
 
 		if (Time.time > lastGeneratedTime + rechargeTime) {
-			Object.Instantiate (prefabToGenerate, transform);
+			Instantiate (prefabToGenerate, transform.position, Quaternion.identity);
 			lastGeneratedTime = Time.time;
 		}
 	}

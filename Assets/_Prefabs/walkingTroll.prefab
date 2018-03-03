@@ -483,9 +483,10 @@ GameObject:
   - component: {fileID: 135953334337375208}
   - component: {fileID: 54722516333751196}
   - component: {fileID: 114407485538992998}
+  - component: {fileID: 114971303936093330}
   m_Layer: 0
   m_Name: walkingTroll
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1639,7 +1640,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 122
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!95 &95165084242594818
 Animator:
@@ -1673,6 +1674,18 @@ MonoBehaviour:
   zSpeed: 2
   attackAnimName: attack03
   attackStrength: 1.9
+--- !u!114 &114971303936093330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1604763236780012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc6c3a07f63ee443b46a02ff3d76c30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!135 &135953334337375208
 SphereCollider:
   m_ObjectHideFlags: 1
